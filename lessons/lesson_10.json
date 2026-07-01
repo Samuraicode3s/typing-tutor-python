@@ -1,0 +1,6 @@
+{
+  "title": "Scanner Input",
+  "description": "Read input from the console.",
+  "code": "import java.util.Scanner;\\n\\npublic class InputExample {\\n    public static void main(String[] args) {\\n        Scanner scanner = new Scanner(System.in);\\n        System.out.print(\\\"Enter name: \\\");\\n        String name = scanner.nextLine();\\n        System.out.println(\\\"Hello, \\\" + name);\\n        scanner.close();\\n    }\\n}",
+  "explanation": "Uses the Scanner class to read standard input. Always close the scanner when done to free system resources."
+}

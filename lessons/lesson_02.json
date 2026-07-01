@@ -1,0 +1,6 @@
+{
+  "title": "Find Max in Array",
+  "description": "Iterate through an array to find the largest value.",
+  "code": "public int findMax(int[] arr) {\\n    int max = arr[0];\\n    for (int num : arr) {\\n        if (num > max) {\\n            max = num;\\n        }\\n    }\\n    return max;\\n}",
+  "explanation": "Starts by assuming the first element is the largest, then checks every other element. If a bigger number is found, it becomes the new max."
+}

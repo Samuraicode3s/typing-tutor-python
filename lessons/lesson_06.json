@@ -1,0 +1,6 @@
+{
+  "title": "Palindrome Check",
+  "description": "Check if a string reads the same forwards and backwards.",
+  "code": "public boolean isPalindrome(String str) {\\n    int left = 0;\\n    int right = str.length() - 1;\\n    while (left < right) {\\n        if (str.charAt(left) != str.charAt(right)) {\\n            return false;\\n        }\\n        left++;\\n        right--;\\n    }\\n    return true;\\n}",
+  "explanation": "Uses two pointers starting from opposite ends of the string. If characters at both pointers ever differ, it is not a palindrome."
+}

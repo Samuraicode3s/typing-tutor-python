@@ -1,0 +1,6 @@
+{
+  "title": "Class Basics",
+  "description": "A simple class with a constructor, getter, and setter.",
+  "code": "public class Person {\\n    private String name;\\n    public Person(String name) {\\n        this.name = name;\\n    }\\n    public String getName() {\\n        return name;\\n    }\\n    public void setName(String name) {\\n        this.name = name;\\n    }\\n}",
+  "explanation": "The name field is private (encapsulation). The constructor sets it initially. getName returns the value, and setName allows changing it safely."
+}

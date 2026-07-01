@@ -1,0 +1,6 @@
+{
+  "title": "Sum 2D Array",
+  "description": "Calculate the sum of all elements in a 2D matrix.",
+  "code": "public int sum2D(int[][] matrix) {\\n    int sum = 0;\\n    for (int[] row : matrix) {\\n        for (int val : row) {\\n        sum += val;\\n        }\\n    }\\n    return sum;\\n}",
+  "explanation": "The outer loop iterates over each row, and the inner loop iterates over each value in that row. Every value is added to the running total."
+}

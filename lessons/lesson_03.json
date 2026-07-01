@@ -1,0 +1,6 @@
+{
+  "title": "Check Prime Number",
+  "description": "Determine if a number is divisible only by 1 and itself.",
+  "code": "public boolean isPrime(int n) {\\n    if (n <= 1) return false;\\n    for (int i = 2; i <= Math.sqrt(n); i++) {\\n        if (n % i == 0) return false;\\n    }\\n    return true;\\n}",
+  "explanation": "Numbers less than 2 are not prime. We only check divisors up to the square root because any factor larger than that would pair with one smaller."
+}

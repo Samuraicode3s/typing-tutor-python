@@ -1,0 +1,6 @@
+{
+  "title": "Reverse a String",
+  "description": "Learn to iterate backward through a string.",
+  "code": "public String reverse(String str) {\\n    StringBuilder sb = new StringBuilder();\\n    for (int i = str.length() - 1; i >= 0; i--) {\\n        sb.append(str.charAt(i));\\n    }\\n    return sb.toString();\\n}",
+  "explanation": "This method creates a StringBuilder and loops backwards through the input string, appending each character. StringBuilder is more efficient than String for repeated concatenation."
+}

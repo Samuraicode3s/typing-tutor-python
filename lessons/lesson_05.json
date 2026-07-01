@@ -1,0 +1,6 @@
+{
+  "title": "Factorial Recursion",
+  "description": "Calculate factorial using a recursive method.",
+  "code": "public int factorial(int n) {\\n    if (n == 0 || n == 1) {\\n        return 1;\\n    }\\n    return n * factorial(n - 1);\\n}",
+  "explanation": "The method calls itself with a smaller number each time. When n reaches 0 or 1, it returns 1 (the base case). Each call multiplies n by the result of factorial(n-1)."
+}
